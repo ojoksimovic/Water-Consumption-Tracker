@@ -1,3 +1,5 @@
+/*DESKTOP VIEW*/
+
 @media (min-width: 950px) {
     body {
     display: flex;
@@ -27,7 +29,6 @@
 }
 
 .box {
-    display: flex;
     outline: #FFFFFF 3px solid;
     box-shadow: 7px 7px 15px 2px black;
     background-color: #292F33;
@@ -60,9 +61,9 @@
 }
 
 #title{
-    margin: 0 0 30px 0;
+    margin: 0 0 15px 0;
     font-size: 2.5rem;
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 
 #other {
@@ -77,7 +78,7 @@
     color: #FFFFFF;
     background-color: #292F33;
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     cursor: pointer;
     transition: all 0.3s ease;
     margin-bottom: 20px;
@@ -90,7 +91,7 @@
     color: #FFFFFF;
     background-color: #292F33;
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     cursor: pointer;
     transition: all 0.3s ease;
     margin-bottom: 20px;
@@ -114,40 +115,44 @@
 
 
 #tracker {
+    height: 90vh;
     padding: 20px;
     position: absolute;
-    top: 10%;
 }
 #tracker-container {
+    height: 75vh;
     display: flex;
     flex-wrap: wrap;
 }
 #logger {
-    margin: 0px 22px 20px 20px;
-    padding: 10px 20px 20px 20px;
+    align-self: center;
+    padding: 0px 20px 0px 20px;
     border-left: white 2px solid;
-    background-color: rgba(85, 172, 238, 0.2);
+    overflow: auto;
 }
 
 #logger h2 {
-    padding: 10px;
-    font-size: 1.5rem;
+    padding: 5px;
+    margin: 20px;
+    font-size: 1.4rem;
 }
 #human-img{
     width: auto;
     height: 100%;
     background: url(human-bluebackground.png);
-/*    background: url("https://i.ibb.co/s9txyP7/human-bluebackground.png");*/
     background-repeat: no-repeat;
     background-size: 100% 0%;
     background-position: bottom;
 }
 #human-container {
+    margin-right: 10px;
+    height: 75vh;
     align-self: center;
-    height: 650px;
+    height: 465px;
     background-color: #FFFFFF;
 }
 #alien-container{
+    margin-right: 10px;
     align-self: center;
     height: 465px;
     background-color: #FFFFFF;
@@ -173,7 +178,7 @@
 }
 
 #total-value, #goal-value {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin: 0;
     padding: 0;
 }
@@ -199,18 +204,9 @@
 
 
 
-
-
-
-
-
-
-
-
+    /* TABLET VIEW*/
 
 @media (min-width: 501px) and (max-width: 950px){
-    /* TABLET VIEW
-    */
 
     body {
     display: flex;
@@ -418,7 +414,7 @@
 
 
 
-
+/*MOBILE VIEW*/
 
 @media (max-width: 500px) {
     
